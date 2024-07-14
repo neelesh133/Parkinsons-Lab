@@ -26,8 +26,46 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+/* Style for WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+  height: 6px; /* Height of the scrollbar (for horizontal scrollbar) */
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Background of the scrollbar track */
+  border-radius: 5px; /* Rounding the corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounding the corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+.letter{
+  background: #fafafa;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 300px 25px rgba(222,198,122,0.7) inset;
+}
+
+
+
+
+
+.loadersvg{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
 }
